@@ -19,6 +19,7 @@ form.addEventListener("submit", function(e){
 
         userList.innerHTML = `
        <img src="${data.avatar_url}"/>
+       <a href="https://github.com/${originalName}">${originalName}</a>
        `
        repoList.innerHTML = `
         <h3>Repositories<a target="_blank" href="https://www.github.com/${originalName}"></a></h3>
